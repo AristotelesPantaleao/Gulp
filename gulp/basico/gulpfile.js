@@ -20,7 +20,7 @@ const antes2 = callback => {
 function copiar(callback) {
 
     gulp.src(['pastaA/arquivo1.txt','pastaA/arquivo2.txt']).pipe(gulp.dest('pastaB'))
-
+    //gulp.src('pastaA/**/*.txt')
     return callback()
 }
 
